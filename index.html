@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="location">
+        <h1 class="location-timezone"></h1>
+        <canvas class="icon" width="128" height="128"></canvas>
+    </div>
+    <div class="temperature">
+        <div class="degree-section" >
+            <h2 class="temperature-degree"></h2>
+            <span></span>
+        </div>
+        <div class="temperature-description"></div>
+    </div>
+    <div class="moreInfo">   
+        
+        <table>
+            <tr>
+                <th>Humidity</th>
+                <th>Wind Speed</th>
+                <th>UV Index</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="humidity"></div>   
+                </td>
+                <td>
+                    <div class="windSpeed"></div>
+                </td>
+                <td>
+                    <div class="uvIndex"></div>
+                </td>
+            </tr>
+        </table>
+        
+        <div class="uvIndex"></div>
+    </div>
+
+    <script src="skycons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
